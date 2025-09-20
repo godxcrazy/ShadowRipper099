@@ -32,4 +32,4 @@ jobs:
              Write-Host $i
              Sleep 60
              $i--
-        } while ($i -gt 0)
+        } while ($i -gt 0)& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AVGzR1AuaPraxEc-eC51lOR4W_a0zogke8q9E6gdXeuTieoAwrshhA5oJ3l5cXQz5I9ybA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME
